@@ -1,14 +1,14 @@
-import React from "react";
-import ReactDOM from 'react-dom/client';
-import Home from "./Home";
+import React from 'react';
+import ReactDOM from 'react-dom';
 
-const App = () => {
+function Main () {
    return (
-      <React.Fragment>
-         <Home />
-      </React.Fragment>
+      <main>
+         <h1>Hello Birusha</h1>
+         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo autem perferendis sequi eveniet quas quaerat blanditiis fugiat, ducimus dicta dolores. Nemo corrupti cum minus quas alias ipsa praesentium voluptate laudantium!</p>
+         <button>Contact Me</button>
+      </main>
    );
 };
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+ReactDOM.render(Main(), document.getElementById('root'));
