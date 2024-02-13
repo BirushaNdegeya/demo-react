@@ -1,12 +1,11 @@
 import React from "react";
 import ReactDOM from 'react-dom/client';
-import Home, { Button } from "./Home";
+import Home from "./Home";
 
 const App = () => {
    return (
       <React.Fragment>
          <Home />
-         <Button />
       </React.Fragment>
    );
 };
